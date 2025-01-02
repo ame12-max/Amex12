@@ -1,0 +1,355 @@
+.navigation {
+    background-color: orange;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.navigation h1{
+    text-align: center;
+    color:white;
+    font-size: 50px;
+    font-family: Arial;
+    font-style: bold;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px;
+}
+.navigation  a{
+color: white;
+display: inline-block;
+text-decoration: none;
+text-shadow: 2px 2px 4px rgb(0, 0, 0,0.5);
+
+
+}
+.navigation ul{
+    list-style-type: none;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 30px;
+   
+    
+}
+.navigation ul a:hover{
+    background-color: magenta;
+    border-bottom: 2px red solid;
+    transition: o.5s;
+}
+.navigation a:active{
+background:rgb(107, 61, 61) ;
+}
+.intro{
+    background-color: rgb(17, 8, 26);
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+    font-weight: 600;
+    font-family: arial;
+    font-size: 40px;
+    text-shadow: 1px 1px 1px;
+}
+.intro:hover{
+    background-color: rgb(139, 19, 139);
+    height: 105%;
+    width: 115%;
+}
+.wellcome-message{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-style: bold;
+    background-color: rgb(50, 25, 25);
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-transform: capitalize;
+    padding-left: 40px;
+}
+.website{
+    background-color:rgb(85, 55, 113);
+    color: white;
+    font-size: 24px;
+    font-family: arial;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin-left:30px ;
+    margin-right: 30px;
+}
+.front-end{
+    background-color: rgb(33, 3, 3);
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 15px;
+text-align: center;
+font-family: arial;
+font-size: 40px;
+margin-left: 30px;
+margin-right: 30px;
+}
+.front-end:hover{
+    background-color: rgb(136, 68, 20);
+    width: 110%;
+    transition: 0.5S;
+
+}
+.back-end{
+    background-color: rgb(40, 6, 6);
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 15px;
+text-align: center;
+font-family: arial;
+font-size: 40px;
+margin-left: 30px;
+margin-right: 30px;
+margin-top: 100px;
+display: block;
+}
+.web-dev{
+    background-color:rgb(16, 5, 5) ;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+padding-top: 20px;
+}
+.web-dev p{
+    font-family: sans-serif;
+    font-size: 24px;
+    text-transform: capitalize;
+
+}
+.web-dev p ul{
+   font-size: 26px;
+
+}
+#youtube-icon{
+    color: red;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    justify-content: center;
+    font-size: 40px;
+    padding-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+
+}
+#youtube-icon:hover{
+    color:rgb(190, 184, 184);
+    font-size: 50px;
+}
+#telegram-icon{
+    color: rgb(12, 12, 78);
+    text-decoration: none;
+    font-size: 40px;
+    margin-left: 300px;
+    justify-content: center;
+    text-align: center;
+
+}
+#telegram-icon:hover{
+    color:rgb(190, 184, 184);
+    font-size: 50px;
+}
+#tiktok-icon{
+    color: rgb(189, 19, 19);
+    text-decoration: none;
+    margin-left: 500px;
+    font-size: 40px;
+    justify-content: center;
+}
+#tiktok-icon:hover{
+    color:rgb(190, 184, 184);
+    font-size: 50px;
+}
+.footer{
+    background-color:rgb(11, 10, 10);
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+.me{
+    background-color: rgb(59, 9, 59);
+    color: white;
+
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.my-photo{
+    width: 400px;
+    height: px;
+    margin-left: 40px;
+    text-align: center;
+    justify-content: center;
+    background: transparent;
+    background-color: black;
+}
+.my-photo:hover{
+    width: 500px;
+    transition: cubic-bezier(0.5s);
+}
+.about-me{
+    font-family: arial;
+    font-size: 24px;
+    background-color: rgb(7, 20, 20);
+    color: white;
+    text-transform: capitalize;
+    padding-top: 30px;
+    padding-left:50px ;
+    margin-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+}
+#about{
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: left;
+    margin-left: 80px;
+}
+.proj{
+font-family: Arial;
+text-transform: capitalize;
+background-color: rgb(16, 14, 14);
+color: white;
+padding-top: 20px;
+padding-left: 30px;
+padding-bottom: 30px;
+margin-left: 30px;
+margin-right: 30px;
+font-size: 24px;
+margin-top: 25px;
+}
+.proj h6{
+    font-size: 26px;
+}
+.vid-ed{
+    background-color: rgb(60, 36, 36);
+    color: white;
+    font-family: arial;
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-right: 40px;
+    margin-left: 40px;
+    
+}
+.video-1{
+    height: 400px;
+    width: 250px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 10%;
+    display: inline-block;
+}
+.video-name{
+    font-style: bold;
+    font-family: sans-serif;
+    font-size: 22px;
+    display: inline-block;
+    margin: 50px;
+}
+.photoes img{
+    width: 20%;
+border: 2px red solid;
+    margin-top: 25px;
+    margin-left: 10%;
+    margin-right: 20px;
+    display: inline-block;
+}
+.photoes p{
+    font-family: arial;
+    font-style: bold;
+    font-size: 14px;
+    color: rgb(109, 25, 25);
+   text-transform: capitalize;
+   margin: 40px;
+}
+.contacts{
+    text-align: center;
+    background-color: purple;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+    font-family: arial;
+    text-decoration: solid;
+    text-shadow: 1px 1px 1px ;
+    text-transform: uppercase;
+}
+.contacts:hover{
+    background-color: rgb(68, 27, 27);
+    width: 110%;
+}
+.text-area{
+   text-decoration: none;
+   text-align: center;
+   margin-top: 30px;
+   color: blueviolet;
+}
+.form{
+    text-align: center;
+    font-family: arial;
+    font-size: 26px;
+    color:white ;
+    background: rgb(63, 29, 29);
+    text-transform: uppercase;
+    margin-top:50px;
+    font-style:bold;
+    font-weight: 600;
+    padding-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.form input{
+background-color:rgb(38, 69, 59);
+color: white;
+border-bottom: 1px red solid;
+}
+.form input:hover{
+    background-color: rgb(70, 41, 30);
+    width: 40%;
+    transition: 0.4s;
+}
+#submit{
+    text-align: center;
+margin-left: 460px;
+margin-top: 30px;
+background-color: purple;
+color: white;
+font-family: arial;
+text-transform: uppercase;
+padding: 10px;
+text-decoration: none;
+font-size: 20px;
+border-radius: 6px;
+border-bottom: 2px red solid;
+text-shadow:1px 1px 1px  ;
+}
+#submit:hover{
+    background-color: rgb(156, 114, 35);
+    
+}
+.finished-check{
+    text-align: center;
+    margin-top: 15px;
+}
+
