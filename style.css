@@ -194,16 +194,17 @@ padding-top: 20px;
 }
 .my-photo{
     width: 400px;
-    height: px;
+    max-width:500px;
+    height: auto;
     margin-left: 40px;
     text-align: center;
     justify-content: center;
     background: transparent;
     background-color: black;
+    transition: cubic-bezier(0.5s);
 }
 .my-photo:hover{
     width: 500px;
-    transition: cubic-bezier(0.5s);
 }
 .about-me{
     font-family: arial;
