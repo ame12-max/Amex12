@@ -150,12 +150,16 @@ padding-top: 20px;
 #youtube-icon:hover{
     color:rgb(190, 184, 184);
     font-size: 50px;
+    display:flex;
+    gap:10px;
+    justify-content:center:
 }
 #telegram-icon{
-    color: rgb(12, 12, 78);
+    color: blue;
     text-decoration: none;
     font-size: 40px;
-    margin-left: 300px;
+     display:flex;
+    gap:10px;
     justify-content: center;
     text-align: center;
 
@@ -167,8 +171,8 @@ padding-top: 20px;
 #tiktok-icon{
     color: rgb(189, 19, 19);
     text-decoration: none;
-    margin-left: 500px;
     font-size: 40px;
+    display:flex;
     justify-content: center;
 }
 #tiktok-icon:hover{
