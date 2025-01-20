@@ -144,14 +144,12 @@ padding-top: 20px;
     gap:10px;
     font-size: 40px;
     padding-top: 50px;
+       transition:0.5s;
 
 }
 #youtube-icon:hover{
-    color:rgb(190, 184, 184);
-    font-size: 50px;
-    display:flex;
-    gap:10px;
-    justify-content:center:
+    color:white;
+
 }
 #telegram-icon{
     color: blue;
@@ -161,11 +159,12 @@ padding-top: 20px;
     gap:10px;
     justify-content: center;
     text-align: center;
+    transition:0.5s;
 
 }
 #telegram-icon:hover{
-    color:rgb(190, 184, 184);
-    font-size: 50px;
+    color:white;
+   
 }
 #tiktok-icon{
     color: rgb(189, 19, 19);
@@ -173,10 +172,11 @@ padding-top: 20px;
     font-size: 40px;
    display:inline:block;
     justify-content: center;
+       transition:0.5s;
 }
 #tiktok-icon:hover{
-    color:rgb(190, 184, 184);
-    font-size: 50px;
+    color:white;
+
 }
 .footer{
     background-color:rgb(11, 10, 10);
