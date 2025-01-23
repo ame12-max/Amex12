@@ -136,20 +136,33 @@ padding-top: 20px;
 
 }
 .web-dev p ul{
-   font-size: 26px;
+   font-size: 16px;
 
 }
 .back-end-detail{
+    background-color:rgb(16, 5, 5) ;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+padding-top: 20px;}
+.back-end-detail p{
     font-family: sans-serif;
     font-size: 24px;
     text-transform: capitalize;
+}
+.back-end-detail p ul{
+    font-size: 16px;
 }
 #youtube-icon{
     color: red;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    justify-content: center;
+    justify-content: space-between;
     gap:10px;
     font-size: 25px;
        transition:0.5s;
@@ -164,9 +177,9 @@ padding-top: 20px;
     text-decoration: none;
     font-size: 25px;
     margin-left:25px:
-     display:inline:block;
+     display:inline-block;
     gap:10px;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
     transition:0.5s;
 
@@ -180,8 +193,8 @@ padding-top: 20px;
     text-decoration: none;
     font-size: 25px;
     margin-left:25px;
-     display:inline:block;
-    justify-content: center;
+     display:inline-block;
+    justify-content: space-between;
        transition:0.5s;
 }
 #tiktok-icon:hover{
@@ -322,27 +335,26 @@ border: 2px red solid;
 .form{
     text-align: center;
     font-family: arial;
-    font-size: 26px;
+    font-size: 16px;
     color:white ;
-    background: rgb(63, 29, 29);
+    background: rgb(38, 69, 59);
     text-transform: uppercase;
     margin-top:50px;
     font-style:bold;
-    font-weight: 600;
+    font-weight: 400;
     padding-top: 20px;
     margin-left: 30px;
     margin-right: 30px;
 }
 .form input{
-background-color:rgb(38, 69, 59);
+background:trasparent;
 color: white;
-border-bottom: 1px red solid;
+border-bottom: 1px orange solid;
+    border-top:none;
+    border-right:none;
+    border-left:none;
 }
-.form input:hover{
-    background-color: rgb(70, 41, 30);
-    width: 40%;
-    transition: 0.4s;
-}
+
 #submit{
     text-align: center;
 margin-left: 460px;
@@ -368,16 +380,20 @@ text-shadow:1px 1px 1px  ;
     
 }
 .copy-right{
-    font-size:10px;
+    font-size:18px;
+    text-align:center;
     padding-top:30px;
     color:white;
 }
 @media (max-width: 600px) {
     navigation ul li {
-        display: block;
+        display: inline;
         margin-bottom: 10px;
     }
-    
+     navigation ul li a{
+         text-align:center;
+font-size:1.5rem;
+     }
     header {
         text-align: center;
     }
