@@ -292,13 +292,13 @@ margin-top: 25px;
     display: inline-block;
     margin: 50px;
 }
+.photoes{
+    float:left;
+    width:33.33%;
+    padding:10px;
+}
 .photoes img{
-    width: 20%;
-border: 2px red solid;
-    margin-top: 25px;
-    margin-left: 10%;
-    margin-right: 20px;
-    display: inline-block;
+    max-width:80%;
 }
 .photoes p{
     font-family: arial;
