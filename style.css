@@ -220,17 +220,15 @@ padding-top: 20px;}
     margin-right: 30px;
 }
 .my-photo{
-    max-width:400px;
+    max-width:60%;
     height: auto;
     margin-left: 40px;
-    text-align: center;
-    justify-content: center;
     background: transparent;
     background-color: black;
     transition: cubic-bezier(0.5s);
 }
 .my-photo:hover{
-    width: 500px;
+    width: 65%;
 }
 .about-me{
     font-family: arial;
