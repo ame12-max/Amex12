@@ -297,13 +297,14 @@ margin-top: 25px;
     margin-left: 10px;
 }
 .photoes img{
-    max-width:80%;
+    max-width:170px;
+    height:auto;
 }
 .photoes p{
     font-family: arial;
     font-style: bold;
     font-size: 14px;
-    color: rgb(109, 25, 25);
+    color: red;
    text-transform: capitalize;
    margin: 40px;
 }
